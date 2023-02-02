@@ -1,0 +1,44 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'bo3bdo Blog...'
+theme = 'PaperMod'
+paginate = 5
+
+
+ [profileMode]
+        enabled= true
+        title= 'PaperMod'
+        imageUrl= "#"
+        imageTitle= 'my image'
+        # imageWidth: 120
+        # imageHeight: 120
+        [buttons]
+            - name= 'Archives'
+              url= 'archives'
+            - name= 'Tags'
+              url= 'tags'
+
+
+[params]
+enableRobotsTXT = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = true
+hideSummary = false
+showtoc = true
+tocopen = false
+description= "XXX"
+author= 'bo3bdo'
+defaultTheme= 'auto'
+disableThemeToggle= false
+displayFullLangName= false
+images= ["papermod-cover.png"]
